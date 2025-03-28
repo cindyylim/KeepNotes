@@ -50,10 +50,13 @@ CREATE TABLE notes (
 
 ## Running the Application
 
-1. Start the server:
-```bash
+1. Start the backend server:
+# From the server directory
+nodemon index.js
+2. Start the frontend development server:
+# From the client directory
+cd client
 npm start
-```
 
 The server will run on `http://localhost:3001`
 
