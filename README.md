@@ -52,7 +52,7 @@ CREATE TABLE notes (
 
 1. Start the backend server:
 # From the server directory
-nodemon index.js
+npm run dev 
 2. Start the frontend development server:
 # From the client directory
 cd client
