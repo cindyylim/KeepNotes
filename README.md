@@ -51,12 +51,16 @@ CREATE TABLE notes (
 ## Running the Application
 
 1. Start the backend server:
-# From the server directory
-npm run dev 
+From the server directory
+```
+npm run dev
+```
 2. Start the frontend development server:
-# From the client directory
+From the client directory
+```
 cd client
 npm start
+```
 
 The server will run on `http://localhost:3001`
 
