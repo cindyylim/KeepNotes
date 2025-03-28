@@ -42,9 +42,9 @@ npm install
 3. Set up the database:
 ```sql
 CREATE TABLE notes (
-    id SERIAL PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    metadata TEXT
+	id SERIAL PRIMARY KEY, 
+	title text,
+	metadata text
 );
 ```
 
